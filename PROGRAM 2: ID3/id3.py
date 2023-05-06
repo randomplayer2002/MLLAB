@@ -28,7 +28,7 @@ def id3(df, target_attribute, attribute_names, default_class=None):
 df=pd.read_csv("tennis.csv")
 
 attribute_names=df.columns.tolist()
-print("List of attribut name")
+print("List of attribute name")
 
 attribute_names.remove("PlayTennis")
 
