@@ -10,7 +10,7 @@ hypothesis=['0']*number_of_attributes
 print("H-0:",hypothesis)
 
 for index, row in data.iterrows():
-  if row[len(row)-1]== 'Yes':
+  if row[len(row)-1] == 'Yes':
     for colIndex in range(len(row)-1):
       if hypothesis[colIndex]=='0':
         hypothesis[colIndex]=row[colIndex]
